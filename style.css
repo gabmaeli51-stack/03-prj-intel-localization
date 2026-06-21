@@ -40,7 +40,7 @@ section:nth-of-type(1) {
     scroll-snap-type: x mandatory;
     gap: 25px;
     padding: 40px 20px;
-    scrollbar-width: smooth;
+    scroll-behavior: smooth; /* Fixed! */
 }
 
 /* Individual card structures */
